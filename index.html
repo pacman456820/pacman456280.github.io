@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="portfolio">
+    <meta name="author" content="Areeb Syed">
+
+    <title>Areeb Syed's Portfolio</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+                <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- Custom Fonts -->
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css" rel="stylesheet">
+
+    
+    <link href = "style.css" rel="stylesheet">
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Welcome</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Areeb Syed</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2>A Little About Myself...</h2>
+                        <p>I am an aspiring entrepenur, always looking for new ideas to turn into businesses. Fascinated by the world around us, I've always had a passion for inventing cool gadgets from a young age, taking them apart to analyze and rationale their inner components.</p> 
+                        
+                        <p>My curiosity for machines has led me to the 4th year of an Elecrical Engineering and Management program at McMaster University, where I discovered interests in a plethora of feilds such as Busniess Management, Smart Micro Grids, and Software Development. </p>
+                    
+                        <p>In my free time, I try to live a balenced life which includes spending time with my family, being a basketball enthusiast, and increasing my spirtual knowledge.</p> 
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="Picture1.png" height="300" width="400">
+                    </div>
+
+                </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Projects</h2>
+                        <p id="ph">Over here are some of the individual and group projects I work on in my spare time, in and out of school.<p/>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="thumbnail">
+                            <h3>Digital Thermometer</h3>
+                            <video width = 100% height="auto" controls>
+                                <source src="temp.noaudio.mp4" type="video/mp4">
+                            </video>
+                            <p>This digital thermometer reads the tempereture of the surroudings and displays it in both farenheit and celcius </p>
+                            <p>Software Used: Arduino</p>
+                            <p>Hardware Used: Arduino Uno, Potentiometer, LCD Display, RTD</p>
+                        </div>   
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="thumbnail">
+                            <h3>Automated Draw Bridge</h3>
+                            <video width = 100% height= 190px controls>
+                                <source src="bridge.noaud.mp4" type="video/mp4">
+                            </video>
+                            <p>As part of the McMaster Engineering Competition, I designed a draw bridge that would close automatically when it sensed and incoming object  </p>
+                            <p>Software Used: Arduino</p>
+                            <p>Hardware Used: Arduino Uno, DC Motor, Ultrasonic Sensor</p>
+                        </div>   
+                    </div>
+                
+                
+                
+                    <div class="col-lg-4">
+                        <div class="thumbnail">
+                            <h3>Digital Ruler</h3>
+                            <video width = 100% height="auto" controls>
+                                <source src="digitalruler.mp4" type="video/mp4">
+                            </video>
+                            <p>This digital rule uses an Ultrasonic sensor to determine the distance of a object from it </p>
+                            <p>Software Used: Arduino</p>
+                            <p>Hardware Used: Arduino Uno, Potentiometer, LCD Display, Ultrasonic Sensor</p>
+                        </div>   
+                    </div>
+                </div>    
+               
+                     
+                
+        </div> 
+        
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Contact Me</h2>
+                    </div>
+                    
+                    <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="mailto:syeda16@mcmaster.ca" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                        </li>
+                        <li>
+                            <a href="https://ca.linkedin.com/in/areebsyed" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="startbootstrap-scrolling-nav-gh-pages/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="startbootstrap-scrolling-nav-gh-pages/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="startbootstrap-scrolling-nav-gh-pages/js/jquery.easing.min.js"></script>
+    <script src="startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
