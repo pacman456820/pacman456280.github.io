@@ -24,7 +24,7 @@ h6 {
 }
 
 #intro{
-    background: url(brady-bellini-191086.jpg) no-repeat center center;
+    background: url(cloud2.jpg) no-repeat center center;
     background-size: cover;
     padding-bottom: 400px;
     text-align: center;
@@ -46,7 +46,7 @@ h6 {
 }
 
 .about-section{
-    background-color: whitesmoke;
+    background-color: #cce6ff;
     
      
     
@@ -56,7 +56,7 @@ h6 {
 .projects-section{
     padding-top: 100px;
     padding-bottom: 300px;
-    
+    background-color: white;
 
 }
 
@@ -87,8 +87,8 @@ h6 {
 
 .contact-section{
     padding-top: 210px;
-    background-image: url(cool.gif);
-    background-size: cover;
+    background-image: url(potential1.gif);
+    background-size:cover;
 }
 
 }
